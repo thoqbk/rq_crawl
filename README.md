@@ -1,4 +1,4 @@
-# [RQ Crawl]
+# RQ Crawl
 
 Using RQ (Redis Queue) to crawl links and titles
 
@@ -10,7 +10,7 @@ Using RQ (Redis Queue) to crawl links and titles
 
 ## Get started
 
-* **Step 1:** Create mysql database using schema.sql
+* **Step 1:** Using `schema.sql` to initialize your database
 * **Step 2:** Update DB config in `services.py` and `root_url` in `bootstrap.py`
 * **Step 3:** Run `bootstrap.py` to initialize crawling job: `python bootstrap.py`
 * **Step 4:** Start one or more workers by running `rq worker` in `rq_crawl` directory
