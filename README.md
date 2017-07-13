@@ -1,6 +1,6 @@
 # [RQ Crawl]
 
-Using RQ (Redis Queue) to crawl link and title
+Using RQ (Redis Queue) to crawl links and titles
 
 ## Dependencies
 
