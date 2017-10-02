@@ -15,7 +15,5 @@ if __name__ == '__main__':
     if options.root_url is not None:
         rq = Queue(connection=Redis())
         root_url = options.root_url
-        print root_url
-        exit(0)
         link_id = services.create_link(-1, root_url)
         rq.enqueue(crawl, link_id)
